@@ -1,9 +1,9 @@
-# 2D FGM Heat Conduction Simulation
+# 2D Heat Conduction Simulation
 
-This MATLAB code simulates transient heat conduction in functionally graded materials using the Generalized Differential Quadrature (GDQ) method.
+This MATLAB code simulates transient heat conduction in functionally graded materials circualr plate using the Generalized Differential Quadrature (GDQ) and Crank-Nicolson (CN) methods.
 
 ## Purpose
-The script models temperature changes over time in 2D FGM, with customizable boundary conditions and thermal properties that vary by material type and temperature.
+The script models temperature changes over time in 2D circular geometry, with customizable boundary conditions and thermal properties that vary by material type and temperature.
 
 ## Usage
 Run the code by specifying the mesh (`nr`, `nz`), time step (`dt`), and material properties (e.g., `a`, `b`, `hh`, `kisi`). Set boundary conditions for each edge.
